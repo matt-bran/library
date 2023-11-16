@@ -17,14 +17,17 @@ function addBookToLibrary(book) {
   myLibrary.push(book);
 }
 
-const btn = document.querySelector('#add_btn');
+const add_btn = document.querySelector('#add_btn');
+const submit_btn = document.querySelector('#submit-btn');
 
-btn.addEventListener('click', () => {
+add_btn.addEventListener('click', () => {
     const modal = document.querySelector('.modal');
     modal.style.display = "flex";
     modal.style.flexDirection = "row";
     modal.style.justifyContent = "center";
 })
+
+
 
 /*
 const div_books = document.querySelector('.books');

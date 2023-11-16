@@ -130,7 +130,7 @@ path {
 }
 
 path:hover {
-    fill: black;
+    fill: lightgray;
 }
 
 .submit {
